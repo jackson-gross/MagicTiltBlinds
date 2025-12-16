@@ -11,4 +11,4 @@ stepper:
     deceleration: 800
 
 packages:
-  AutomatedBlinds.common: github://jackson-gross/MagicTiltBlinds/packages/AutomatedBlinds_Include_For_Common.yaml@main
+  AutomatedBlinds.common: github://jackson-gross/MagicTiltBlinds/packages/MagicBlindsCommon.yaml@main
