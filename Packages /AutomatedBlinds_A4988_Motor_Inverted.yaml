@@ -1,0 +1,14 @@
+stepper:
+  - platform: a4988
+    id: my_stepper
+    step_pin: GPIO16 # STEP pin to ESP
+    dir_pin: 
+      number: GPIO17
+      inverted: true  # INVERTED to reverse motor direction
+    sleep_pin: GPIO5 # Enable pin (can be tied to sleep/reset for simpler setup)
+    max_speed: 700
+    acceleration: 800  # Faster acceleration
+    deceleration: 800
+
+packages:
+  AutomatedBlinds.common: github://jackson-gross/MagicTiltBlinds/Packages/AutomatedBlinds_Include_For_Common.yaml@main
